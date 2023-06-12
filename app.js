@@ -32,7 +32,7 @@ app.use(passport.initialize());
 app.use(passport.session());
 
 // console.log(process.env.API_key);
-const db = 'mongodb://localhost:27017/userDB';
+const db = 'mongodb+srv://my-secrets:aTyjkvATfWt1TIw8@cluster0.fjezb4s.mongodb.net/?retryWrites=true&w=majority';
 
 mongoose.set('strictQuery', true);
 
